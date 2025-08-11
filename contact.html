@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - VoiceBat</title>
+    <link rel="icon" href="public/voicebat_logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;">
+                    <img src="public/voicebat_logo.png" alt="VoiceBat Logo" class="logo">
+                    <span class="logo-text">VoiceBat</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="market.html">Market</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-dual-bg">
+            <div class="bg-underlayer" style="background-image: url('public/images/new/misc6.jpg');"></div>
+            <div class="bg-overlay" style="background-image: url('public/images/new/12.jpg');"></div>
+        </div>
+        <div class="hero-bg-image">
+            <div class="radio-overlay" data-link="index.html">
+                <img src="public/radio.png" alt="Radio" class="radio-icon">
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Contact VoiceBat</h1>
+                <p class="hero-subtitle">We'd love to talk with you!</p>
+                <p class="hero-description">Get in touch about products, partnerships, or just to say hello.</p>
+            </div>
+            <div class="hero-presentation">
+                <div class="contact-overview">
+                    <h3>🦇 Let's Connect</h3>
+                    <p>Ready to revolutionize communication with VoiceBat? We're here to help with all your questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="section contact-section">
+        <div class="section-dual-bg">
+            <div class="bg-underlayer" style="background-image: url('public/images/radio/5.jpg');"></div>
+            <div class="bg-overlay" style="background-image: url('public/images/radio/20.jpg');"></div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/switzerland.jpg" alt="Switzerland" class="bg-image">
+                        <div class="radio-overlay" data-link="index.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h2>Get in Touch</h2>
+                    <p>We'd love to talk with you if you're interested in VOICE BAT!</p>
+                    <div class="contact-details">
+                        <img src="public/voicebat_logo.png" alt="VoiceBat" class="contact-logo">
+                        <div>
+                            <p><strong>📧 Email:</strong> support@voicebat.com</p>
+                            <p><strong>🦇 Mission:</strong> Adding Voice & Personality to Messaging</p>
+                            <p><strong>📡 Technology:</strong> Both Audio & Text over LoRa Networks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" action="mailto:support@voicebat.com" method="post" enctype="text/plain">
+                        <h3 class="contact-form-header">Send Us a Message 🦇</h3>
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Optional - your company name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Optional - your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">I'm interested in... *</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Please select your interest</option>
+                                <option value="voicebat-app">🦇 VoiceBat App</option>
+                                <option value="sonar-mini">📻 SONAR MINI Device</option>
+                                <option value="starter-kit">📦 Starter Kit ($200)</option>
+                                <option value="professional-kit">🏢 Professional Kit ($1,500)</option>
+                                <option value="community-kit">🏘️ Community Kit ($5,000)</option>
+                                <option value="custom-solution">⚙️ Custom Solution</option>
+                                <option value="partnership">🤝 Partnership Opportunity</option>
+                                <option value="investment">💰 Investment Opportunity</option>
+                                <option value="distribution">🌐 Distribution Partnership</option>
+                                <option value="media-press">📰 Media/Press Inquiry</option>
+                                <option value="technical-support">🔧 Technical Support</option>
+                                <option value="general">💬 General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your needs *</label>
+                            <textarea id="message" name="message" placeholder="Please describe your needs, questions, or how you'd like to use VoiceBat technology..." rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeline">Expected Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Optional - when do you need this?</option>
+                                <option value="immediate">🚀 Immediate (ASAP)</option>
+                                <option value="1-month">📅 Within 1 month</option>
+                                <option value="3-months">⏰ Within 3 months</option>
+                                <option value="6-months">📆 Within 6 months</option>
+                                <option value="exploring">🔍 Just exploring options</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message 🦇</button>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 15px; text-align: center;">
+                            * Required fields. Your email will open your default email client.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="section alt-bg">
+        <div class="section-dual-bg">
+            <div class="bg-underlayer" style="background-image: url('public/images/new2/phone2.jpg');"></div>
+            <div class="bg-overlay" style="background-image: url('public/images/radio/9.jpg');"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Multiple Ways to Connect</h2>
+                <img src="public/voicebat_logo.png" alt="VoiceBat" class="section-logo">
+            </div>
+            <div class="edge-grid">
+                <div class="edge-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/athens.jpg" alt="Athens" class="bg-image">
+                        <div class="radio-overlay" data-link="product.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>📧 Email Support</h3>
+                    <p>Send us an email at <strong>support@voicebat.com</strong> for detailed inquiries, technical questions, or partnership discussions.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="mailto:support@voicebat.com" style="color: #6c63ff; text-decoration: none; font-weight: 600;">→ Email Us Now</a>
+                    </div>
+                </div>
+                <div class="edge-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/dubrovnik.jpg" alt="Dubrovnik" class="bg-image">
+                        <div class="radio-overlay" data-link="solution.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>🗣️ Voice Message</h3>
+                    <p>Practice what we preach! Send us a voice message describing your interest in VoiceBat technology. We love hearing from our community.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="mailto:support@voicebat.com?subject=Voice Message Interest" style="color: #6c63ff; text-decoration: none; font-weight: 600;">→ Send Voice Message</a>
+                    </div>
+                </div>
+                <div class="edge-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/venice.jpg" alt="Venice" class="bg-image">
+                        <div class="radio-overlay" data-link="market.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>📱 Social Connect</h3>
+                    <p>Follow our journey and connect with the VoiceBat community on social media for updates, demos, and behind-the-scenes content.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="mailto:support@voicebat.com?subject=Social Media Inquiry" style="color: #6c63ff; text-decoration: none; font-weight: 600;">→ Get Social Links</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="section-dual-bg">
+            <div class="bg-underlayer" style="background-image: url('public/images/new2/phone1.jpg');"></div>
+            <div class="bg-overlay" style="background-image: url('public/images/new2/radio2.jpg');"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <img src="public/voicebat_logo.png" alt="VoiceBat" class="section-logo">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/madrid2.jpg" alt="Madrid" class="bg-image">
+                        <div class="radio-overlay" data-link="product.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>🦇 What is VoiceBat?</h3>
+                    <p>VoiceBat is a revolutionary communication system that combines Both Audio & Text (BAT) in messages sent over LoRa mesh networks, giving users voice and personality without cellular dependence.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/bern.jpg" alt="Bern" class="bg-image">
+                        <div class="radio-overlay" data-link="solution.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>📻 How does SONAR MINI work?</h3>
+                    <p>SONAR MINI is a wearable device that captures 30-second voice messages, automatically transcribes them, and transmits both audio and text over LoRa networks up to 2 miles without cellular coverage.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/england.jpg" alt="England" class="bg-image">
+                        <div class="radio-overlay" data-link="market.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>💰 What are the pricing options?</h3>
+                    <p>We offer Starter Kits ($200), Professional Kits ($1,500), and Community Kits ($5,000). Individual SONAR MINI devices are $100 each. Contact us for custom enterprise solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section alt-bg">
+        <div class="section-dual-bg">
+            <div class="bg-underlayer" style="background-image: url('public/images/new2/rocket2.png');"></div>
+            <div class="bg-overlay" style="background-image: url('public/images/new2/misc8.jpg');"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Mission</h2>
+                <img src="public/voicebat_logo.png" alt="VoiceBat" class="section-logo">
+            </div>
+            <div class="solution-content">
+                <div class="solution-main">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/paris.jpg" alt="Paris" class="bg-image">
+                        <div class="radio-overlay" data-link="index.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>🦇 Adding Voice & Personality to Messaging</h3>
+                    <p>At VoiceBat, we believe that human communication should never lose its most essential element: the human voice. Our mission is to restore personality, emotion, and authentic expression to digital messaging while building resilient communication networks that communities can control.</p>
+                    <div class="product-features">
+                        <h4>Our Values:</h4>
+                        <ul>
+                            <li>🗣️ Voice matters - authentic human expression</li>
+                            <li>🌐 Community ownership of communication infrastructure</li>
+                            <li>🔒 Privacy and independence from big tech</li>
+                            <li>🎯 Simple, accessible technology for everyone</li>
+                            <li>🦇 Innovation inspired by nature's communication masters</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="solution-features">
+                    <div class="feature">
+                        <div class="card-bg-image">
+                            <img src="public/images/aerials/alps.jpg" alt="Alps" class="bg-image">
+                            <div class="radio-overlay" data-link="solution.html">
+                                <img src="public/radio.png" alt="Radio" class="radio-icon">
+                            </div>
+                        </div>
+                        <h4>🚀 Innovation</h4>
+                        <p>We're constantly pushing the boundaries of what's possible with voice communication and mesh networking technology.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="card-bg-image">
+                            <img src="public/images/aerials/lake_tahoe.jpg" alt="Lake Tahoe" class="bg-image">
+                            <div class="radio-overlay" data-link="product.html">
+                                <img src="public/radio.png" alt="Radio" class="radio-icon">
+                            </div>
+                        </div>
+                        <h4>🤝 Community</h4>
+                        <p>Building technology that empowers communities to create their own resilient communication networks and digital independence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section">
+        <div class="section-dual-bg">
+            <div class="bg-underlayer" style="background-image: url('public/images/new2/bat1.jpg');"></div>
+            <div class="bg-overlay" style="background-image: url('public/images/new2/streetlight.jpg');"></div>
+        </div>
+        <div class="container">
+            <div class="why-now-grid">
+                <div class="why-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/ireland.jpg" alt="Ireland" class="bg-image">
+                        <div class="radio-overlay" data-link="product.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>🛍️ Ready to Buy?</h3>
+                    <p>Explore our product lineup and find the perfect VoiceBat solution for your communication needs.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="product.html" style="color: white; padding: 12px 25px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; background: transparent; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">View Products</a>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/bern.jpg" alt="Bern" class="bg-image">
+                        <div class="radio-overlay" data-link="market.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>💼 Business Partnership?</h3>
+                    <p>Interested in distribution, investment, or strategic partnerships? Let's explore opportunities together.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="market.html" style="color: white; padding: 12px 25px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; background: transparent; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">Market Info</a>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="card-bg-image">
+                        <img src="public/images/aerials/lake_tahoe2.jpg" alt="Lake Tahoe" class="bg-image">
+                        <div class="radio-overlay" data-link="solution.html">
+                            <img src="public/radio.png" alt="Radio" class="radio-icon">
+                        </div>
+                    </div>
+                    <h3>🤔 Learn More?</h3>
+                    <p>Want to understand the technology and how VoiceBat solves communication problems? Dive deeper into our solution.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="solution.html" style="color: white; padding: 12px 25px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; background: transparent; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">Our Solution</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;">
+                        <img src="public/voicebat_logo.png" alt="VoiceBat" class="footer-logo-img">
+                        <span>VoiceBat</span>
+                    </a>
+                </div>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="problem.html">Problem</a>
+                    <a href="solution.html">Solution</a>
+                    <a href="product.html">Product</a>
+                    <a href="market.html">Market</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p><a href="mailto:support@voicebat.com" style="color: white; text-decoration: none;">support@voicebat.com</a></p>
+                    <p class="footer-tagline">"Adding Voice & Personality to Messaging"</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logos">
+                    <img src="public/voicebat_logo.png" alt="VoiceBat" class="footer-mini-logo">
+                    <img src="public/radio.png" alt="Radio" class="footer-mini-logo">
+                </div>
+                <p>&copy; 2025 VoiceBat. All rights reserved. 🦇</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
