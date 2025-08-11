@@ -1,0 +1,21 @@
+{
+  "name": "voicebat-recording",
+  "version": "1.0.0",
+  "description": "Enhanced website recording script for VoiceBat",
+  "main": "record-enhanced-2.js",
+  "scripts": {
+    "record": "node record-enhanced-2.js",
+    "record-original": "node record-enhanced.js",
+    "record-no-tts": "node record-enhanced-5.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-screen-recorder": "^3.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {},
+  "keywords": ["recording", "puppeteer", "voicebat", "screencast"],
+  "author": "VoiceBat Team",
+  "license": "MIT"
+}
