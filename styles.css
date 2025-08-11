@@ -207,12 +207,13 @@ body {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
 }
 
-.hero-presentation iframe {
+.pitch-deck-image {
     border-radius: 20px;
     border: none;
     width: 100%;
     height: 800px;
     min-height: 600px;
+    object-fit: cover;
 }
 
 /* Dual Background System */
@@ -1097,7 +1098,7 @@ body {
         margin-top: 30px;
     }
     
-    .hero-presentation iframe {
+    .pitch-deck-image {
         height: 400px;
         min-height: 300px;
     }
